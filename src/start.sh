@@ -3,7 +3,7 @@ if [ ! -f "/core/etc/conf.ini" ];then
 echo "文件不存在"
 echo "[System]" > /core/etc/conf.ini
 echo "Mode = master" >> /core/etc/conf.ini
-echo "Listen = :83" >> /core/etc/conf.ini
+echo "Listen = :5212" >> /core/etc/conf.ini
 echo "Debug = false" >> /core/etc/conf.ini
 echo "[Database]" >> /core/etc/conf.ini
 echo "DBFile = /core/db/cloudreve.db" >> /core/etc/conf.ini
